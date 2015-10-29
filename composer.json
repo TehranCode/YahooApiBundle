@@ -28,5 +28,10 @@
     "autoload": {
         "psr-0": { "TehranCode\\Yahoo\\ApiBundle": "" }
     },
-    "target-dir": "TehranCode/Yahoo/ApiBundle"
+    "target-dir": "TehranCode/Yahoo/ApiBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    } 
 }
