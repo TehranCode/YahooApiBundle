@@ -12,6 +12,7 @@ in the `alexandreeffetb\yos-social-php5\lib\Yahoo\YahooCurl.php` line 112 and so
 [alexandreeffetb/yos-social-php5](https://github.com/alexandreeffetb/yos-social-php5)
 # Installation
 ### Use Composer to get the repository
+first go to [alexandreeffetb/yos-social-php5](https://github.com/alexandreeffetb/yos-social-php5) and install it!
 ```
 $ composer require TehranCode/YahooApiBundle
 ```
