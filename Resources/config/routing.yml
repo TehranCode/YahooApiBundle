@@ -1,0 +1,7 @@
+yahoo_Request_route:
+    path:     /yahoo_request_data
+    defaults: { _controller: TehranCodeYahooApiBundle:Default:yahoorequestfun }
+
+yahoo_Response_route:
+    path:     /yahoo_Response_route
+    defaults: { _controller: TehranCodeYahooApiBundle:Default:yahooresponsefun }

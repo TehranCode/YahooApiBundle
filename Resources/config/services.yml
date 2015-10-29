@@ -1,0 +1,4 @@
+services:
+    TehranCode.Yahoo.OAuth.Application:
+        class: TehranCode\YahooApiBundle\Services\YahooOAuthApplication
+        arguments: [%tehran_code_yahoo_api%]
