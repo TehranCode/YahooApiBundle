@@ -8,7 +8,7 @@ Yahoo does answer OAuth requests from Localhost but It doesn't answer OAuth+Open
 ```php
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 ```
-in the `alexandreeffetb\yos-social-php5\lib\Yahoo\YahooCurl.php` line 112 and some of shared servers has problem with this! you should comment it probably or ...
+in the `alexandreeffetb\yos-social-php5\lib\Yahoo\YahooCurl.php` line 112 and some of shared servers have problem with this!so you should comment it probably or ...
 # Requirements
 [alexandreeffetb/yos-social-php5](https://github.com/alexandreeffetb/yos-social-php5)
 # Installation
