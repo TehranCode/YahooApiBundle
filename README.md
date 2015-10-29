@@ -3,6 +3,7 @@ Symfony2 Yahoo OAuth + OpenID This Bundle is a wrapper around [alexandreeffetb/y
 # Progress Sheet
 This is under construction so Don't use it or at least Debug it first!
 Yahoo does answer OAuth requests from Localhost but It doesn't answer OAuth+OpenID requests
+
 [alexandreeffetb/yos-social-php5](https://github.com/alexandreeffetb/yos-social-php5) uses:
 ```php
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
