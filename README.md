@@ -1,10 +1,9 @@
 # YahooApiBundle
 Symfony2 Yahoo OAuth + OpenID This Bundle is a wrapper around [alexandreeffetb/yos-social-php5](https://github.com/alexandreeffetb/yos-social-php5)
 # Progress Sheet
-This is under construction so Don't use it or at least Debug it first!
-Yahoo does answer OAuth requests from Localhost but It doesn't answer OAuth+OpenID requests
-
-[alexandreeffetb/yos-social-php5](https://github.com/alexandreeffetb/yos-social-php5) uses:
+1. This is under construction so Don't use it or at least Debug it first!
+2. Yahoo does answer OAuth requests from Localhost but It doesn't answer OAuth+OpenID requests
+3. [alexandreeffetb/yos-social-php5](https://github.com/alexandreeffetb/yos-social-php5) uses:
 ```php
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 ```
