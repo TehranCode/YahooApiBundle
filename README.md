@@ -3,7 +3,7 @@ Symfony2 Yahoo Oauth + OpenID This Bundle is a wrapper around [alexandreeffetb/y
 # Progress Sheet
 This is under construction so Don't use it or at least Debug it first!
 # Requirements
-	[alexandreeffetb/yos-social-php5](https://github.com/alexandreeffetb/yos-social-php5)
+[alexandreeffetb/yos-social-php5](https://github.com/alexandreeffetb/yos-social-php5)
 # Installation
 ### Use Composer to get the repository
 ```
