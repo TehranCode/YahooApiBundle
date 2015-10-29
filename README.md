@@ -20,7 +20,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new TehranCode\YahooApiBundle\TehranCodeYahooApiBundle($this),
+        new TehranCode\YahooApiBundle\TehranCodeYahooApiBundle(),
     );
 }
 ```
