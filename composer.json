@@ -1,0 +1,32 @@
+{
+    "name": "tehrancode/yahoo-api-bundle",
+    "type": "symfony-bundle",
+    "description": "This Bundle is a wrapper around alexandreeffetb/yos-social-php5 for yahoo php SDK",
+    "keywords": ["comment", "threads", "forum"],
+    "homepage": "https://github.com/TehranCode/YahooApiBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Reza Kharestani",
+            "email": "m.r.kharestani13@gmail.com"
+        }
+    ],
+    "support": [
+        {
+          "issues": "https://github.com/TehranCode/YahooApiBundle/issues"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "2.*",
+        "symfony/yaml": "2.*",
+        "alexandreeffetb/yos-social-php5" : "0.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "*"
+    },
+    "autoload": {
+        "psr-0": { "TehranCode\\Yahoo\\ApiBundle": "" }
+    },
+    "target-dir": "TehranCode/Yahoo/ApiBundle"
+}
